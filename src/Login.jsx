@@ -107,7 +107,7 @@ dispatch({
   return (
     <div>
       <div className='mn'>
-      <p>Test user: ruby@gmail.com</p>
+      <p>Test user: hasath@gmail.com</p>
         <p>Test password: 12345678</p>
       </div>
      

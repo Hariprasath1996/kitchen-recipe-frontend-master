@@ -25,21 +25,19 @@ const getrecipe=()=>{
 
   return (
     <div  className='btns'>
-       <Button startIcon={<ArrowBackIcon/>}  onClick={()=>navigate(-1)} variant='contained' color='primary'>Back</Button>
+    <Button startIcon={<ArrowBackIcon/>}  onClick={()=>navigate(-1)} variant='contained' color='primary'>Back</Button>
     <div>
-   <img className="dish" src="https://wallpaperaccess.com/full/1972917.jpg"/>
+  <img className="dish" src="https://wallpaperaccess.com/full/1972917.jpg"/>
           <p className="flag1">Briyani Recipes</p>
         <div className="list">
             {recipelist.map((mv) => (<Briyanidata key={mv.id} data={mv} />))}
         </div>
     </div>
     </div>
- )};
+)};
 
- function Briyanidata({data}){
+function Briyanidata({data}){
   return (
-   
-      
     <div className="page">
 
       <Card className="card">
@@ -57,6 +55,5 @@ const getrecipe=()=>{
         </div>
       </Card>
     </div>
-   
   );
- }
+}

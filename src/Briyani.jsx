@@ -35,7 +35,6 @@ const getrecipe=()=>{
     </div>
     </div>
 )};
-
 function Briyanidata({data}){
   return (
     <div className="page">

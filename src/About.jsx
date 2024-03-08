@@ -10,8 +10,8 @@ export function About() {
       </div>
   <div className='abouts'>
    <h1>Who I am</h1>
-   <p>i am rubynathan , from trichy.</p>
-   <p>i am 21 years old. </p>
+   <p>i am Hariprasath , from Erode.</p>
+   <p>i am 28 years old. </p>
    <p>i build this recipe management website for easy  cooking.i  has always been passionate about food and eating — so much so that she spent  first year out of college driving food competition around the country. </p>
 <h1>Above all, we are:</h1>
    <p>Fun Like you, we enjoy friends, family, cooking, and having a good laugh.</p>
@@ -20,8 +20,8 @@ export function About() {
    <p>Approachable We don't judge—all cooking levels and recipes are welcome. </p>
    <p>Down-to-Earth We love good food, period. It doesn’t need to be fussy to be great. </p>
    <h1>Contact US</h1>
-   <a  className='ang' href="https://www.linkedin.com/in/rubynathan-n-164215259/" target="_blanck" ><LinkedInIcon/></a><br/>
-   <a className='ang1' href="https://github.com/NRUBYNATHAN" target="_blanck"><GitHubIcon/></a>
+   {/* <a  className='ang' href="https://www.linkedin.com/in/rubynathan-n-164215259/" target="_blanck" ><LinkedInIcon/></a><br/> */}
+   <a className='ang1' href="https://github.com/Hariprasath1996" target="_blanck"><GitHubIcon/></a>
   </div>
     </div>
   );

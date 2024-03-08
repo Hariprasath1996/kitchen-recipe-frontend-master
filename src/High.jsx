@@ -26,7 +26,7 @@ const getrecipe=()=>{
     <div  className='btns'>
        <Button startIcon={<ArrowBackIcon/>}  onClick={()=>navigate(-1)} variant='contained' color='primary'>Back</Button>
     <div>
-   <img className="dish" src="https://noexcuseseasyorganising.com/wp-content/uploads/2011/09/breville-bol-1024x770.jpg"/>
+   {/* <img className="dish" src="https://noexcuseseasyorganising.com/wp-content/uploads/2011/09/breville-bol-1024x770.jpg"/> */}
           <p className="flag1">High Quantity Recipes</p>
         <div className="list">
             {recipelist.map((mv) => (<Highdata key={mv.id} data={mv} />))}

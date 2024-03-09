@@ -20,7 +20,7 @@ export function About() {
    <p>Approachable We don't judge—all cooking levels and recipes are welcome. </p>
    <p>Down-to-Earth We love good food, period. It doesn’t need to be fussy to be great. </p>
    <h1>Contact US</h1>
-   {/* <a  className='ang' href="https://www.linkedin.com/in/rubynathan-n-164215259/" target="_blanck" ><LinkedInIcon/></a><br/> */}
+   <a  className='ang' href="https://www.linkedin.com/feed/" target="_blanck" ><LinkedInIcon/></a><br/>
    <a className='ang1' href="https://github.com/Hariprasath1996" target="_blanck"><GitHubIcon/></a>
   </div>
     </div>
